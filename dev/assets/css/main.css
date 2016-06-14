@@ -65,7 +65,7 @@ body {
   border-bottom: 3px solid #fff; }
 
 .ticket {
-  margin: auto;
+  margin: 8% auto 0 auto;
   width: 320px;
   height: 580px;
   background-color: rgba(255, 255, 255, 0.05);
