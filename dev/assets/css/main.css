@@ -1,0 +1,100 @@
+*, body {
+  margin: 0; }
+
+body {
+  font-family: "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #252939; }
+
+.intro {
+  background-color: #252939; }
+
+.intro-bg {
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/landingBG.svg") no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .intro-bg .intro-content {
+    display: inline-block; }
+    .intro-bg .intro-content h3 {
+      font-size: 1.1rem;
+      color: #fff;
+      font-weight: 500;
+      letter-spacing: 1px;
+      line-height: 2; }
+    .intro-bg .intro-content .start-btn {
+      margin-top: 85px;
+      width: 130px;
+      height: 130px;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: inline-block;
+      border-radius: 50%;
+      border: 4px solid #EDFF00;
+      color: #EDFF00;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none; }
+      .intro-bg .intro-content .start-btn .btn-span, .intro-bg .intro-content .start-btn .btn-txt {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1.5; }
+      .intro-bg .intro-content .start-btn .btn-span {
+        height: 130px; }
+
+.logo-link {
+  margin-top: 80px;
+  width: 80px;
+  height: 80px;
+  background: url("../img/logos/logo.svg") no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  text-decoration: none; }
+
+.logo-type {
+  margin: 110px auto 0 auto;
+  width: 436px;
+  height: 36px;
+  background: url("../img/logos/logo-type-white.svg") no-repeat;
+  background-size: 100% 100%; }
+
+.divider {
+  margin: auto auto 38px auto;
+  height: 43px;
+  width: 50px;
+  border-bottom: 3px solid #fff; }
+
+.ticket {
+  margin: auto;
+  width: 320px;
+  height: 580px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 6px 6px rgba(0, 0, 0, 0.4); }
+  .ticket .event-img {
+    width: 100%;
+    height: 320px;
+    background-color: #F2E5E4;
+    position: relative; }
+    .ticket .event-img .event-name {
+      width: 100%;
+      position: absolute;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.4);
+      line-height: 160px;
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: bold;
+      letter-spacing: 4px;
+      bottom: 0;
+      left: 0; }
+  .ticket .event-info {
+    width: 100%;
+    height: 160px; }
+  .ticket .single-ad-btn {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0px 0px 0px 4px #32FAC8; }
+
+/*# sourceMappingURL=main.css.map */
